@@ -1,5 +1,7 @@
 .main1{
     background: url(mainphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .join{
@@ -8,4 +10,6 @@
 
 .Contacts{
     background: url(Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
