@@ -2,14 +2,24 @@
     background: url(mainphone.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
 }
 
 .join{
     background: #FF6A00;
+    text-align: center;
 }
 
 .Contacts{
     background: url(Contacts.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.posts{
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 133px;
 }
