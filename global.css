@@ -7,6 +7,10 @@ body {
 a {
   text-decoration: none;
   color: white;
+  border: 3px solid #774949;
+padding: 10px 50px;
+margin-top: 10px;
+border-radius: 5px;
 }
 
 .container {
@@ -33,4 +37,9 @@ footer {
 
 .logo {
   font-size: 32px;
+}
+
+header a{
+  border: 3px solid #774949;
+padding: 10px 50px;
 }
