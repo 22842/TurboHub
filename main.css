@@ -1,18 +1,38 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+}
+
 .main1 {
-  background: url(mainphone.png);
+  background: url(img/mainphone.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  a {
+    color: white;
+    display: block;
+  }
+  p {
+    align-self: flex-start;
+  }
 }
 
 .join {
   background: #ff6a00;
   text-align: center;
+  padding: 60px 20px;
 }
 
 .Contacts {
-  background: url(Contacts.png);
+  background: url(img/Contacts.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -22,4 +42,15 @@
   display: flex;
   justify-content: space-between;
   padding: 133px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  color: white;
+  img {
+    max-width: 150px;
+  }
 }
