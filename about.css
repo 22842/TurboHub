@@ -10,7 +10,9 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+}
+
 
   a {
     color: white;
@@ -19,18 +21,19 @@
   p {
     align-self: flex-start;
   }
-}
+  
 
 .about-us {
   text-align: center;
   background-color: #ff6a00;
   padding: 80px 20px;
-  text-align: center;
+
 }
 
 .who-we {
   padding: 80px 20px;
   color: white;
+  text-align: center;
 }
 
 .goal {
