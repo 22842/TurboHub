@@ -1,3 +1,7 @@
+.main{
+  background-color: rgb(14, 12, 12);
+}
+
 .main1 {
   background: url(img/mainphone.png);
   background-size: cover;
@@ -22,6 +26,34 @@
   background: #ff6a00;
   text-align: center;
   padding: 60px 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+display: block;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.76);
+
+
+}
+
+.join11{
+background: rgba(0, 0, 0, 0.81);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin:0 auto;
+padding: 10px 100px;
+
 }
 
 .Contacts {
@@ -35,4 +67,10 @@
   display: flex;
   justify-content: space-between;
   padding: 133px;
+}
+
+.header{
+
+border: 3px solid #774949;
+
 }
