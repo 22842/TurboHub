@@ -1,3 +1,34 @@
-.about{
-    background-color: blue;
+.about {
+  background-color: #1d1b1b;
+}
+
+.main1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 15vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  a {
+    color: white;
+    display: block;
+  }
+  p {
+    align-self: flex-start;
+  }
+}
+
+.about-us {
+  text-align: center;
+  background-color: #ff6a00;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.goal {
+  background-color: #ff6a00;
+  text-align: center;
 }
