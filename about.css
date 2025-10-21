@@ -28,7 +28,13 @@
   text-align: center;
 }
 
+.who-we {
+  padding: 80px 20px;
+  color: white;
+}
+
 .goal {
   background-color: #ff6a00;
   text-align: center;
+  padding: 80px 20px;
 }
