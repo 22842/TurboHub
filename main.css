@@ -69,8 +69,28 @@ padding: 10px 100px;
   padding: 133px;
 }
 
-.header{
+.logo{
+font-family: 'Jacques Francois Shadow';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 63px;
+text-align: right;
+text-transform: capitalize;
 
-border: 3px solid #774949;
+color: #FFFFFF;
 
+
+}
+
+.text1{
+font-family: 'Afacad';
+font-style: italic;
+font-weight: 500;
+font-size: 28px;
+line-height: 37px;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
 }

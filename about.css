@@ -10,27 +10,31 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+}
 
-  a {
-    color: white;
-    display: block;
-  }
-  p {
-    align-self: flex-start;
-  }
+a {
+  color: white;
+  display: block;
+}
+p {
+  align-self: flex-start;
 }
 
 .about-us {
   text-align: center;
   background-color: #ff6a00;
   padding: 80px 20px;
-  text-align: center;
 }
 
 .who-we {
   padding: 80px 20px;
   color: white;
+  text-align: center;
+  ul {
+    list-style: none;
+    margin: 0;
+  }
 }
 
 .goal {
