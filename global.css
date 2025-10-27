@@ -4,15 +4,21 @@ body {
   font-family: sans-serif;
 }
 
-a {
+a:not(.link) {
   text-decoration: none;
   color: white;
   border: 3px solid #774949;
-padding: 10px 50px;
-margin-top: 10px;
-border-radius: 5px;
-font-family: 'Afacad';
+  padding: 10px 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: "Afacad";
+}
 
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: "Afacad";
+  display: inline;
 }
 
 .container {
@@ -41,7 +47,7 @@ footer {
   font-size: 32px;
 }
 
-header a{
+header a {
   border: 3px solid #774949;
-padding: 10px 50px;
+  padding: 10px 50px;
 }
