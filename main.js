@@ -8,6 +8,7 @@ function displayCards(filter) {
     // відповідно до фільтру показуємо потрібні картки
     // якщо фільтр "all", показуємо всі картки
     // використати if-else
+
   });
 }
 
@@ -23,8 +24,8 @@ like_buttons.forEach((button) => {
   button.addEventListener("click", () => {
     const id = button.parentElement.dataset.id;
 
-    document.cookie = `liked_posts=${id};`;
-
+      document.cookie = `liked_posts=${id};`; 
+  
     alert("Ви лайкнули цей пост! \n Зможете переглянути його у вашому профілі.");
   });
 });
