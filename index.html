@@ -9,9 +9,9 @@
   </head>
   <body class="main">
     <header>
-      <a href="about.html">Choose your type </a>
+      <a href="index.html#filters">Choose your type </a>
       <a class="logo" href="index.html">TurboHub</a>
-      <a href="about.html">Search</a>
+      <a href="profile.html">Profile</a>
     </header>
     <main>
       <section class="main1">
@@ -31,12 +31,30 @@
         </div>
       </section>
 
+      <section id="filters" class="filters">
+        <h1>Filters</h1>
+        <div class="filter-buttons">
+          <button class="filter-button">All</button>
+          <button data-filter="chopper" class="filter-button">Chopper</button>
+          <button data-filter="street" class="filter-button">Street</button>
+          <button data-filter="retro" class="filter-button">Retro</button>
+        </div>
+      </section>
       <section class="posts">
-        <img src="img/photo1.png" />
+        <div class="card" data-id="1" data-category="chopper">
+          <img data-category="chopper" src="img/photo1.png" />
+          <img class="like" src="img/like2.svg" alt="" />
+        </div>
 
-        <img src="img/photo2.png" />
+        <div class="card" data-id="2" data-category="street">
+          <img data-category="street" src="img/photo2.png" />
+          <img class="like" src="img/like2.svg" alt="" />
+        </div>
 
-        <img src="img/photo3.png" />
+        <div class="card" data-id="3" data-category="retro">
+          <img data-category="retro" src="img/photo3.png" />
+          <img class="like" src="img/like2.svg" alt="" />
+        </div>
       </section>
 
       <section class="join">
@@ -52,6 +70,7 @@
       <p><a class="link" href="contact.html">Контакти</a> <br />&copy; 2025</p>
       <img src="img/logo2.png" alt="" />
     </footer>
+    <script src="main.js"></script>
     <script src="script.js" defer></script>
   </body>
 </html>

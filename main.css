@@ -1,4 +1,4 @@
-.main{
+.main {
   background-color: rgb(14, 12, 12);
 }
 
@@ -27,33 +27,30 @@
   text-align: center;
   padding: 60px 20px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-display: block;
-align-items: center;
-text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  display: block;
+  align-items: center;
+  text-align: center;
 
-color: rgba(0, 0, 0, 0.76);
-
-
+  color: rgba(0, 0, 0, 0.76);
 }
 
-.join11{
-background: rgba(0, 0, 0, 0.81);
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-margin:0 auto;
-padding: 10px 100px;
-
+.join11 {
+  background: rgba(0, 0, 0, 0.81);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 10px 100px;
 }
 
 .Contacts {
@@ -69,28 +66,33 @@ padding: 10px 100px;
   padding: 133px;
 }
 
-.logo{
-font-family: 'Jacques Francois Shadow';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 63px;
-text-align: right;
-text-transform: capitalize;
+.logo {
+  font-family: "Jacques Francois Shadow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+  text-align: right;
+  text-transform: capitalize;
 
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
 
-.text1{
-font-family: 'Afacad';
-font-style: italic;
-font-weight: 500;
-font-size: 28px;
-line-height: 37px;
-text-align: center;
-text-transform: capitalize;
+.text1 {
+  font-family: "Afacad";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: capitalize;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
 }
