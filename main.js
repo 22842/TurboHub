@@ -23,8 +23,8 @@ like_buttons.forEach((button) => {
   button.addEventListener("click", () => {
     const id = button.parentElement.dataset.id;
 
-    document.cookie = `liked_posts=${id};`;
-
+      document.cookie = `liked_posts${id}=${id};`; 
+  
     alert("Ви лайкнули цей пост! \n Зможете переглянути його у вашому профілі.");
   });
 });

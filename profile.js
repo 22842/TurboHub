@@ -2,7 +2,12 @@ const favoritePosts = document.querySelector(".favorite_post");
 
 const likedPosts = document.cookie
   .split("; ")
-  .find((row) => row.startsWith("liked_posts="))
-  ?.split("=")[1];
+  .filter((row) => row.startsWith("liked_posts"))
 
-favoritePosts.src = `img/photo${likedPosts}.png`;
+  likedPosts.forEach((post) => {
+  const postId = post.split("=")[1];
+
+  const img = document.createElement("img");
+  img.src = `img/photo${postId}.png`;
+  favoritePosts.appendChild(img);
+});
