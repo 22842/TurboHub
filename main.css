@@ -95,20 +95,17 @@
   gap: 15px;
   justify-content: center;
   margin-top: 20px;
-  background-color: #ff6a00;
-  font-family: "Afacad";
-  font-style: italic;
-  padding:10px;
-  height:25px;
-}
 
-.filter2{
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  margin-top: 20px;
-  color:#ffffff;
-  font-family: "Afacad";
-  font-style: italic;
-  padding:10px;
+  button {
+    background: #774949;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Afacad";
+    cursor: pointer;
+    &.active {
+      background: #ff6a00;
+    }
+  }
 }
