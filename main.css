@@ -85,7 +85,7 @@
   font-size: 28px;
   line-height: 37px;
   text-align: center;
-  text-transform: capitalize;
+  
 
   color: #ffffff;
 }
@@ -96,4 +96,19 @@
   justify-content: center;
   margin-top: 20px;
   background-color: #ff6a00;
+  font-family: "Afacad";
+  font-style: italic;
+  padding:10px;
+  height:25px;
+}
+
+.filter2{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+  color:#ffffff;
+  font-family: "Afacad";
+  font-style: italic;
+  padding:10px;
 }
