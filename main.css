@@ -13,6 +13,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-attachment: fixed;
+  opacity: 0.70;
 
   a {
     color: rgb(255, 255, 255);
@@ -24,9 +26,15 @@
 }
 
 .join {
-  background: #ff6a00;
+  background: url(https://i.pinimg.com/736x/44/c9/d3/44c9d387e50c32846d3ce99658fcf98e.jpg);
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px;
+  background-position:center;
+  background-size:1550px;
+  background-repeat: no-repeat;
+  background-position: center;
+    opacity: 0.70;
+    background-attachment: fixed;
 
   font-family: "Inter";
   font-style: normal;
@@ -37,7 +45,7 @@
   align-items: center;
   text-align: center;
 
-  color: rgba(0, 0, 0, 0.76);
+  color: rgb(255, 255, 255);
 }
 
 .join11 {
@@ -125,3 +133,4 @@
 font-family: "Afacad";
   font-style: italic;
 }
+
